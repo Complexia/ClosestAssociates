@@ -12,7 +12,8 @@ import java.util.*;
 public class IncidenceMatrix extends AbstractAssocGraph
 {   
 
-    private int[][] inMatrix;
+    private String[] iVertices;
+    private MyPair[] iEdges;
 
 	/**
 	 * Contructs empty graph.
