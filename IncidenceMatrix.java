@@ -13,7 +13,7 @@ public class IncidenceMatrix extends AbstractAssocGraph
 {   
 
     private String[] iVertices;
-    private MyPair[] iEdges;
+    private Edge[] iEdges;
 
 	/**
 	 * Contructs empty graph.
